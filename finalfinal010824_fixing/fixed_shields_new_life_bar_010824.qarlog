@@ -1,0 +1,93 @@
+Quartus Prime Archive log --	C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/fixed_shields_new_life_bar_010824.qarlog
+
+Archive:	C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/fixed_shields_new_life_bar_010824.qar
+Date:		Thu Aug 01 13:05:03 2024
+Quartus Prime		17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5.cmp
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5.qip
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5.sip
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5.spd
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5/CLK_31P5_0002.qip
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5/CLK_31P5_0002.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/CLK_31P5_sim/CLK_31P5.vo
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/DE10_Standard_Audio.sdc
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/KBDINTF.qxp
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Lab1Demo.qpf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Lab1Demo.qsf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Lab1Demo_assignment_defaults.qdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Number_position.bsf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Number_position.qip
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Number_position.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/Number_position_bb.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/AUDIO.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/SinTable.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/TOP_AUDIO.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/ToneDecoder.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/addr_counter.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/audio_codec_controller/DualSerial2parallel.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/audio_codec_controller/audio_codec_controller.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/audio_codec_controller/clock_500.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/audio_codec_controller/i2c.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/AUDIO/prescaler.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/KEYBOARDX/TOP_KBD.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/KEYBOARDX/keyPad_decoder.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/KEYBOARDX/random.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/KEYBOARDX/randomMonsterShot.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/KEYBOARDX/simple_up_counter.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/Seg7/SEG7.SV
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/BG_Bitmap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/HART_DISPLAY.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/HartsMatrixBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/LIFEBAR_BLOCK.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/LifeBarBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/Monster_Block.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/Monster_Shot_Block.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/NumbersBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/PLAYER_SHOTS_DISPLAY.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/PlayerMissileMatrixBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/Player_Block.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/SHIELDS_DISPLAY.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/SQR_missile_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/SQR_monster_shot_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/SQR_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/SQR_objects_mux.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/ShieldsMatrixBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/Smiley_Block_T.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/TOP_VGA_DEMO_KBD.bdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/VGA_Controller.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/back_ground_draw.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/game_controller.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/lifebarSquareObject.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/monsterBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/monster_Logic.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/monster_shot_bitmap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/monster_shot_logic.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/objects_mux.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/playerBitmap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/player_logic.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/shields_square_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/smileyBitMap.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/smileyBitMapmirror.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/smiley_move.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/square_Hart_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/square_object.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/square_object_monster.sv
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/valX.bsf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/valX.qip
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/valX.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/valX_bb.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/RTL/VGA/valX_inst.v
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/assignment_defaults.qdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/constraints/DE10_Standard_Audio.sdc
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/constraints/pin.tcl
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/output_files/Chain1.cdf
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/rtl/vga_bg.mif
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/stp1.stp
+C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/stp100.stp
+	======= Total: 82 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

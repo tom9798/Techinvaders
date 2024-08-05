@@ -1,0 +1,157 @@
+Restore Archived Project report for Lab1Demo
+Thu Aug 01 12:31:47 2024
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Aug 01 12:31:47 2024 ;
+; Revision Name                   ; Lab1Demo                              ;
+; Top-level Entity Name           ; TOP_VGA_DEMO_KBD                      ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/soust/Desktop/final010824/finalfinal010824.qar' into the 'C:/Users/soust/Desktop/final010824/finalfinal010824_fixing/' directory
+Info: Generated report 'Lab1Demo.restore.rpt'
+Info (23030): Evaluation of Tcl script d:/quartusinstalled/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Thu Aug 01 12:31:47 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++------------------------------------------------------------+
+; Files Restored                                             ;
++------------------------------------------------------------+
+; File Name                                                  ;
++------------------------------------------------------------+
+; qar_info.json                                              ;
+; CLK_31P5.cmp                                               ;
+; CLK_31P5.qip                                               ;
+; CLK_31P5.sip                                               ;
+; CLK_31P5.spd                                               ;
+; CLK_31P5.v                                                 ;
+; CLK_31P5/CLK_31P5_0002.qip                                 ;
+; CLK_31P5/CLK_31P5_0002.v                                   ;
+; CLK_31P5_sim/CLK_31P5.vo                                   ;
+; DE10_Standard_Audio.sdc                                    ;
+; KBDINTF.qxp                                                ;
+; Lab1Demo.qpf                                               ;
+; Lab1Demo.qsf                                               ;
+; Lab1Demo_assignment_defaults.qdf                           ;
+; Number_position.bsf                                        ;
+; Number_position.qip                                        ;
+; Number_position.v                                          ;
+; Number_position_bb.v                                       ;
+; RTL/AUDIO/AUDIO.bdf                                        ;
+; RTL/AUDIO/SinTable.sv                                      ;
+; RTL/AUDIO/TOP_AUDIO.bdf                                    ;
+; RTL/AUDIO/ToneDecoder.sv                                   ;
+; RTL/AUDIO/addr_counter.sv                                  ;
+; RTL/AUDIO/audio_codec_controller/DualSerial2parallel.sv    ;
+; RTL/AUDIO/audio_codec_controller/audio_codec_controller.sv ;
+; RTL/AUDIO/audio_codec_controller/clock_500.sv              ;
+; RTL/AUDIO/audio_codec_controller/i2c.sv                    ;
+; RTL/AUDIO/prescaler.sv                                     ;
+; RTL/KEYBOARDX/TOP_KBD.bdf                                  ;
+; RTL/KEYBOARDX/keyPad_decoder.sv                            ;
+; RTL/KEYBOARDX/random.sv                                    ;
+; RTL/KEYBOARDX/randomMonsterShot.sv                         ;
+; RTL/KEYBOARDX/simple_up_counter.sv                         ;
+; RTL/Seg7/SEG7.SV                                           ;
+; RTL/VGA/BG_Bitmap.sv                                       ;
+; RTL/VGA/HART_DISPLAY.bdf                                   ;
+; RTL/VGA/HartsMatrixBitMap.sv                               ;
+; RTL/VGA/LIFEBAR_BLOCK.bdf                                  ;
+; RTL/VGA/LifeBarBitMap.sv                                   ;
+; RTL/VGA/Monster_Block.bdf                                  ;
+; RTL/VGA/Monster_Shot_Block.bdf                             ;
+; RTL/VGA/NumbersBitMap.sv                                   ;
+; RTL/VGA/PLAYER_SHOTS_DISPLAY.bdf                           ;
+; RTL/VGA/PlayerMissileMatrixBitMap.sv                       ;
+; RTL/VGA/Player_Block.bdf                                   ;
+; RTL/VGA/SHIELDS_DISPLAY.bdf                                ;
+; RTL/VGA/SQR_missile_object.sv                              ;
+; RTL/VGA/SQR_monster_shot_object.sv                         ;
+; RTL/VGA/SQR_object.sv                                      ;
+; RTL/VGA/SQR_objects_mux.sv                                 ;
+; RTL/VGA/ShieldsMatrixBitMap.sv                             ;
+; RTL/VGA/Smiley_Block_T.bdf                                 ;
+; RTL/VGA/TOP_VGA_DEMO_KBD.bdf                               ;
+; RTL/VGA/VGA_Controller.sv                                  ;
+; RTL/VGA/back_ground_draw.sv                                ;
+; RTL/VGA/game_controller.sv                                 ;
+; RTL/VGA/lifebarSquareObject.sv                             ;
+; RTL/VGA/monsterBitMap.sv                                   ;
+; RTL/VGA/monster_Logic.sv                                   ;
+; RTL/VGA/monster_shot_bitmap.sv                             ;
+; RTL/VGA/monster_shot_logic.sv                              ;
+; RTL/VGA/objects_mux.sv                                     ;
+; RTL/VGA/playerBitmap.sv                                    ;
+; RTL/VGA/player_logic.sv                                    ;
+; RTL/VGA/shields_square_object.sv                           ;
+; RTL/VGA/smileyBitMap.sv                                    ;
+; RTL/VGA/smileyBitMapmirror.sv                              ;
+; RTL/VGA/smiley_move.sv                                     ;
+; RTL/VGA/square_Hart_object.sv                              ;
+; RTL/VGA/square_object.sv                                   ;
+; RTL/VGA/square_object_monster.sv                           ;
+; RTL/VGA/valX.bsf                                           ;
+; RTL/VGA/valX.qip                                           ;
+; RTL/VGA/valX.v                                             ;
+; RTL/VGA/valX_bb.v                                          ;
+; RTL/VGA/valX_inst.v                                        ;
+; assignment_defaults.qdf                                    ;
+; constraints/DE10_Standard_Audio.sdc                        ;
+; constraints/pin.tcl                                        ;
+; output_files/Chain1.cdf                                    ;
+; rtl/vga_bg.mif                                             ;
+; stp1.stp                                                   ;
+; stp100.stp                                                 ;
++------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

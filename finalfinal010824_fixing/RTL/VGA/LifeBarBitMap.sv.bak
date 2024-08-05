@@ -1,0 +1,78 @@
+
+module	LifeBarBitMap	(	
+		input		logic		clk,
+		input		logic		resetN,
+		input 	logic		[10:0] offsetX,// offset inside bracket from top left position 
+		input 	logic		[10:0] offsetY,
+		input		logic		InsideRectangle, //input that the pixel is within a bracket 
+		input 	logic 	collision0, //collision of player monster missile, will decrease the life bar
+		input 	logic 	collision1, //collision of player and monster, will decrease the life bar to 0
+		input 	logic 	collision3, //collision of monster and shield, will decrease the life bar to 0
+		input 	logic 	startOfFrame, 
+		
+		output	logic		drawingRequest, //output that the pixel should be dispalyed 
+		output	logic		[7:0] RGBout  //rgb value from the bitmap 
+ ) ;
+
+parameter		int	InitialLives = 3 ;
+parameter		int	LifeBarLength = 120 ;
+localparam		logic		[7:0] TRANSPARENT_ENCODING = 8'hFF ; //RGB value in the bitmap representing a transparent pixel
+
+int		XPaintLimit = LifeBarLength ;
+int		currentPaintLimit = LifeBarLength ;
+int		lives = InitialLives ;
+logic		hurt = 1'b0 ;
+int LifeBarMiddle = LifeBarLength/2;
+
+
+always_ff@(posedge clk or negedge resetN)
+begin
+	if(!resetN) begin
+		RGBout <= 8'hFF ;
+		hurt <= 1'b0 ;
+		lives <= InitialLives ;
+		XPaintLimit <= LifeBarLength ;
+		currentPaintLimit <= LifeBarLength ;
+	end
+	
+	else begin
+		RGBout <= TRANSPARENT_ENCODING ; //default
+		if (collision0 & (currentPaintLimit <= XPaintLimit)) begin
+			hurt <= 1'b1 ;
+			XPaintLimit <= (lives != 0) ? (XPaintLimit - (LifeBarLength/lives)) : 0 ;
+			lives <= (lives > 0) ? (lives - 1) : 0 ;
+		end
+
+		if (collision1 || collision3) begin
+			hurt <= 1'b1;
+			x_paint_limit <= 0;
+			lives <= 0;
+		end
+
+		if (hurt & startOfFrame) begin
+			currentPaintLimit <= (currentPaintLimit != XPaintLimit) ? (currentPaintLimit - 5) : currentPaintLimit ;
+			hurt <= (currentPaintLimit != XPaintLimit) ? 1'b1 : 1'b0 ;
+		end
+
+		if (InsideRectangle & (offsetX < currentPaintLimit)) begin 
+			case(lives)
+				InitialLives: begin
+					RGBout <= 8'b00011100;
+				end
+				1: begin
+					RGBout <= 8'b11100000;
+				end
+				0: begin
+					RGBout <= 8'b11100000;
+				end
+				default: begin
+					RGBout <= 8'hD8;
+				end
+			endcase
+		end 	
+	end 
+end
+
+// decide if to draw the pixel or not 
+assign	drawingRequest = (RGBout != TRANSPARENT_ENCODING ) ? 1'b1 : 1'b0 ; // get optional transparent command from the bitmpap   
+endmodule
